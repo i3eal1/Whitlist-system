@@ -1,0 +1,24 @@
+local player = game.Players.LocalPlayer
+local whitelistedpeople = {
+    "IIlllIIlllIllIII",--usernames you want to whitlist
+    "iceddryan",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+}
+for i,v in pairs(whitelistedpeople) do
+    if player.Name == v then
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/i3eal1/HoverGui/main/HoverGui'))();
+
+
+else 
+(print)"you are not whitlisted"
+end
+end
